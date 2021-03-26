@@ -11,7 +11,7 @@
 # https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
 # base image
-FROM node:10.12.0-alpine
+FROM node:10-alpine
 
 # environment
 ENV NPM_CONFIG_LOGLEVEL info
